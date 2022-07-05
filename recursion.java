@@ -8,7 +8,8 @@ public class recursion {
     }
     public static void main(String args[]) {
      int n = 5;
-     printNumb(n);       
+     printNumb(n);   
+     System.out.println();    
     }
     
 }
