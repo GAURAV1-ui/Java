@@ -6,11 +6,11 @@ public class dice {
             return;
         }
 
-        for(int i =1;i<=6 && i<=target ;i++){
-            dice1(p+i , target -i);
+        for(int i =1;i<=target; i++){
+            dice1(p+i , target-i);
         }
     }
     public static void main(String[] args) {
-        dice1("" , 4);
+        dice1("" , 2);
     }
 }
