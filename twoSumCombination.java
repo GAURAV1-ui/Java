@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class twoSumCombination {
-        public static void combinationSum(int[] candidates, int target) {
+        public static ArrayList<List<Integer>> combinationSum(int[] candidates, int target) {
             ArrayList<List<Integer>> res = new ArrayList<List<Integer>>(); 
             backtrack(candidates,0,target,new ArrayList<Integer>(), res);
-            System.out.println(res);
+            return res;
         }
             
             public static void backtrack(int[] candidates,int start,int target,List<Integer> list,  List<List<Integer>> res){
