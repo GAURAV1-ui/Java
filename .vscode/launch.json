@@ -1,0 +1,420 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMedianSortedArrays",
+            "request": "launch",
+            "mainClass": "FindMedianSortedArrays",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkListDup",
+            "request": "launch",
+            "mainClass": "LinkListDup",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxArea",
+            "request": "launch",
+            "mainClass": "MaxArea",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch OOPA",
+            "request": "launch",
+            "mainClass": "OOPA",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recursionset",
+            "request": "launch",
+            "mainClass": "Recursionset",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stringreverse",
+            "request": "launch",
+            "mainClass": "Stringreverse",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subseq",
+            "request": "launch",
+            "mainClass": "Subseq",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrat2",
+            "request": "launch",
+            "mainClass": "arrat2",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch array1",
+            "request": "launch",
+            "mainClass": "array1",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch array3",
+            "request": "launch",
+            "mainClass": "array3",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bit",
+            "request": "launch",
+            "mainClass": "bit",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bit2",
+            "request": "launch",
+            "mainClass": "bit2",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bit3",
+            "request": "launch",
+            "mainClass": "bit3",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bit4",
+            "request": "launch",
+            "mainClass": "bit4",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bits4",
+            "request": "launch",
+            "mainClass": "bits4",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubblesort",
+            "request": "launch",
+            "mainClass": "bubblesort",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculation",
+            "request": "launch",
+            "mainClass": "calculation",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch countsAndSay",
+            "request": "launch",
+            "mainClass": "countsAndSay",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch dice",
+            "request": "launch",
+            "mainClass": "dice",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch duplicaterecursion",
+            "request": "launch",
+            "mainClass": "duplicaterecursion",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch exCuteInstruction",
+            "request": "launch",
+            "mainClass": "exCuteInstruction",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch firstandlastrecursion",
+            "request": "launch",
+            "mainClass": "firstandlastrecursion",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch function",
+            "request": "launch",
+            "mainClass": "function",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch isHappy202",
+            "request": "launch",
+            "mainClass": "isHappy202",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch keypad",
+            "request": "launch",
+            "mainClass": "keypad",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch linklist",
+            "request": "launch",
+            "mainClass": "linklist",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch maze",
+            "request": "launch",
+            "mainClass": "maze",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch mazeAlldir",
+            "request": "launch",
+            "mainClass": "mazeAlldir",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch mazeDir",
+            "request": "launch",
+            "mainClass": "mazeDir",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch mazeObs",
+            "request": "launch",
+            "mainClass": "mazeObs",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch minPartitions",
+            "request": "launch",
+            "mainClass": "minPartitions",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumOperation",
+            "request": "launch",
+            "mainClass": "minimumOperation",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch nQueens",
+            "request": "launch",
+            "mainClass": "nQueens",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion",
+            "request": "launch",
+            "mainClass": "recursion",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion1",
+            "request": "launch",
+            "mainClass": "recursion1",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion2",
+            "request": "launch",
+            "mainClass": "recursion2",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion4",
+            "request": "launch",
+            "mainClass": "recursion4",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion5",
+            "request": "launch",
+            "mainClass": "recursion5",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion6",
+            "request": "launch",
+            "mainClass": "recursion6",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursion7",
+            "request": "launch",
+            "mainClass": "recursion7",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursionSortedArray",
+            "request": "launch",
+            "mainClass": "recursionSortedArray",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursionkeypad",
+            "request": "launch",
+            "mainClass": "recursionkeypad",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch removexatlast",
+            "request": "launch",
+            "mainClass": "removexatlast",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse",
+            "request": "launch",
+            "mainClass": "reverse",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch selectionsort",
+            "request": "launch",
+            "mainClass": "selectionsort",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortrecursion",
+            "request": "launch",
+            "mainClass": "sortrecursion",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch spaceNexLine",
+            "request": "launch",
+            "mainClass": "spaceNexLine",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch string",
+            "request": "launch",
+            "mainClass": "string",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch string1",
+            "request": "launch",
+            "mainClass": "string1",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch subSetIteration",
+            "request": "launch",
+            "mainClass": "subSetIteration",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch subString",
+            "request": "launch",
+            "mainClass": "subString",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sudokoSolver",
+            "request": "launch",
+            "mainClass": "sudokoSolver",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile",
+            "request": "launch",
+            "mainClass": "tempCodeRunnerFile",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch towerofHanio",
+            "request": "launch",
+            "mainClass": "towerofHanio",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch twoSumCombination",
+            "request": "launch",
+            "mainClass": "twoSumCombination",
+            "projectName": "Java_7d1cf69c"
+        }
+    ]
+}
