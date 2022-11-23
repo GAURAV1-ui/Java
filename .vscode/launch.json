@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch reverseLinkedList2_92",
+            "request": "launch",
+            "mainClass": "reverseLinkedList2_92",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch middleNode876",
+            "request": "launch",
+            "mainClass": "middleNode876",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
