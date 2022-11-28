@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "BinaryTree",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree3$BinaryTree",
+            "request": "launch",
+            "mainClass": "BinaryTree3$BinaryTree",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree3",
+            "request": "launch",
+            "mainClass": "BinaryTree3",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryTree2",
             "request": "launch",
             "mainClass": "BinaryTree2",
