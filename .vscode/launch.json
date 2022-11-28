@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch countOfNodesBinaryTree",
+            "request": "launch",
+            "mainClass": "countOfNodesBinaryTree",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryTree",
             "request": "launch",
             "mainClass": "BinaryTree",
