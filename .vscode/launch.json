@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryTree2",
+            "request": "launch",
+            "mainClass": "BinaryTree2",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTree1",
+            "request": "launch",
+            "mainClass": "BinaryTree1",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch stack",
             "request": "launch",
             "mainClass": "stack",

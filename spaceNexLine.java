@@ -5,7 +5,7 @@ public class spaceNexLine {
         int i =0;
         s.trim();
        while(i<s.length()){
-        if(s.charAt(i)!=){
+        if(s.charAt(i)!= 'a'){
             i++;
         }
         else{
