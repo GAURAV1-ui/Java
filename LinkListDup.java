@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class LinkListDup {
 
     private Node head;
@@ -279,7 +277,7 @@ public class LinkListDup {
 
       
         list.display();
-        list.duplicate();
+        // list.duplicate();
         list.display();
         }
 

@@ -1,4 +1,3 @@
-import java.util.*;
 public class reverseLinkedList2_92 {
 
     public static Node head;

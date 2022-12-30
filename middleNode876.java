@@ -22,6 +22,6 @@ public static class ListNode {
 }
 
 public static void main(String[] args) {
-    ListNode list = new ListNode();
-}
+//     ListNode list = new ListNode();
+// }
 }

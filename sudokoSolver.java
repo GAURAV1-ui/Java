@@ -8,7 +8,7 @@ public class sudokoSolver {
             private boolean solve(char[][] board , int i, int j){
                 
               if(i == board.length-1 && j == board[0].length-1){
-                  return;
+                  return false;
               }
                 if(j == board[0].length-1){
                     i = i+1;
@@ -19,7 +19,7 @@ public class sudokoSolver {
                 }
                 
                 if(board[i][j] == '.'){
-                    for(char k = '1' , k <= '9' , k++){
+                    for(char k = '1' ; k <= '9' ; k++){
                         board[i][j] = k;
                         if(isValid(board, i , j , k))
                             return true;
@@ -50,4 +50,5 @@ public class sudokoSolver {
                         
         }
     }
+}
 }
