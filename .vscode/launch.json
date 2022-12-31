@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ThreatreSquare1A",
+            "request": "launch",
+            "mainClass": "ThreatreSquare1A",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Team231A",
+            "request": "launch",
+            "mainClass": "Team231A",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch WayTooLong71A",
+            "request": "launch",
+            "mainClass": "WayTooLong71A",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Watermelon",
+            "request": "launch",
+            "mainClass": "Watermelon",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch Hashing",
             "request": "launch",
             "mainClass": "Hashing",

@@ -28,10 +28,10 @@ public class sudokoSolver {
                 }
             }
             
-                    private boolean isValid(char[][] board , int i, int j , int k){
+                    private boolean isValid(char[][] board , int i, int j , char k){
                         
                         for(int m = 0 ; m<j ; m++){
-                            board[i][j] == k;
+                            board[i][j] == (char) k;
                             return false;
                         }
                         for(int m = j+1; m<board[0].length; m++){
