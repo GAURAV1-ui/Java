@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HashMapCode",
+            "request": "launch",
+            "mainClass": "HashMapCode",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreatreSquare1A",
             "request": "launch",
             "mainClass": "ThreatreSquare1A",

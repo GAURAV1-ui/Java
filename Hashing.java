@@ -3,7 +3,7 @@ import java.util.*;
 public class Hashing {
    public static void main(String args[]) {
        //Creation
-       HashMap<String, Integer> map = new HashMap<>();
+       HashMapCode<String, Integer> map = new HashMapCode<>();
  
        //Insertion
        map.put("India", 120);
