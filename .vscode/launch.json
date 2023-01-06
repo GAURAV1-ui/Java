@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MajorityElement",
+            "request": "launch",
+            "mainClass": "MajorityElement",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch HashMapCode",
             "request": "launch",
             "mainClass": "HashMapCode",
