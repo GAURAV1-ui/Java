@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IntersectionOf2Arrays",
+            "request": "launch",
+            "mainClass": "IntersectionOf2Arrays",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnionOf2Arrays",
+            "request": "launch",
+            "mainClass": "UnionOf2Arrays",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch MajorityElement",
             "request": "launch",
             "mainClass": "MajorityElement",
