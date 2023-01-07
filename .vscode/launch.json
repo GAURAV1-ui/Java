@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ItineraryTickets",
+            "request": "launch",
+            "mainClass": "ItineraryTickets",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch IntersectionOf2Arrays",
             "request": "launch",
             "mainClass": "IntersectionOf2Arrays",
