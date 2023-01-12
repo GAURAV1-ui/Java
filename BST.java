@@ -37,6 +37,9 @@ public class BST {
     }
 
     public static boolean Search(Node root, int key) {
+        if(root == null){
+            return false;
+        }
         if(root.data > key) {
             return Search(root.left, key);
         }
@@ -44,12 +47,12 @@ public class BST {
             return true;
         }
         else {
-             
+             return Search(root.right, key);
         }
-        return false;
+        
     }
    public static void main(String args[]) {
-    int values[] = {5, 1, 3, 4, 2, 7};
+    int values[] = {8, 5, 3, 1, 4, 6, 10, 11, 14};
     Node root = null;  
     
     for(int i=0; i< values.length; i++){
@@ -58,5 +61,11 @@ public class BST {
 
     inorder(root);
     System.out.println();
+
+    if(Search(root,1)){
+        System.out.println("Found");
+    }else{
+        System.out.println("Not Found");
+    }
    } 
 }
