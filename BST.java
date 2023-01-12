@@ -108,7 +108,7 @@ public class BST {
     //     System.out.println("Not Found");
     // }
 
-    delete(root, 4);
+    delete(root,5);
     inorder(root);
    } 
 }
