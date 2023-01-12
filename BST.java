@@ -1,3 +1,4 @@
+import java.util.*;
 public class BST {
 
     // BST inorder
@@ -91,6 +92,43 @@ public class BST {
         }
         return root;
     }
+
+    public static void printInRange(Node root, int X, int Y) {
+        if(root == null){
+            return;
+        }
+        if(root.data >= X && root.data <= Y){
+           printInRange(root.left, X, Y);
+           System.out.print(root.data+" ");
+           printInRange(root.right, X, Y); 
+        }
+        else if(root.data >= Y){
+            printInRange(root.left, X, Y);
+        }else{
+            printInRange(root.right, X, Y);
+        }
+    }
+
+    public static void prinrToLeaf(Node root, ArrayList<Integer> path) {
+        if(root == null){
+            return;
+        }
+        if(root.left == null && root.right == null){
+            printPath(path);
+        } else{
+        path.add(root.data);
+        prinrToLeaf(root.left, path);
+        prinrToLeaf(root.right, path);
+        path.remove(path.size()-1);
+        }
+    }
+
+    public static void printPath(ArrayList<Integer> path) {
+        for(int i =0 ; i<path.size(); i++);{
+            System.out.println(path.get(i));
+        }
+        System.out.println();
+    }
    public static void main(String args[]) {
     int values[] = {8, 5, 3, 1, 4, 6, 10, 11, 14};
     Node root = null;  
@@ -108,7 +146,9 @@ public class BST {
     //     System.out.println("Not Found");
     // }
 
-    delete(root,5);
-    inorder(root);
-   } 
+    // delete(root,5);
+    // inorder(root);
+
+//     printInRange(root, 6, 10);
+//    } 
 }
