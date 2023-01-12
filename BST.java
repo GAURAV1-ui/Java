@@ -31,7 +31,7 @@ public class BST {
             return;
         }
         inorder(root.left);
-        System.out.print(root.data+ "");
+        System.out.print(root.data+ " ");
         inorder(root.right);
 
     }
