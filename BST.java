@@ -62,7 +62,7 @@ public class BST {
     inorder(root);
     System.out.println();
 
-    if(Search(root,1)){
+    if(Search(root,7)){
         System.out.println("Found");
     }else{
         System.out.println("Not Found");
