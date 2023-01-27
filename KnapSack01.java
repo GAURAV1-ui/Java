@@ -5,7 +5,7 @@ public class KnapSack01 {
             return 0;
         }
 
-        if(n) {
+        if(n == 0) {
             
         }
     }
