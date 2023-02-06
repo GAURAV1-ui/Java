@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch helloWorld",
+            "request": "launch",
+            "mainClass": "helloWorld",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch BST1",
             "request": "launch",
             "mainClass": "BST1",
