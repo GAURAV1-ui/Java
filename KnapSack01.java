@@ -6,7 +6,7 @@ public class KnapSack01 {
         }
 
         if(n == 0) {
-            
+            n==0
         }
     }
 
