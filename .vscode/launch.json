@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KnapSack01",
+            "request": "launch",
+            "mainClass": "KnapSack01",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "Launch helloWorld",
             "request": "launch",
             "mainClass": "helloWorld",
