@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubsetSumKnapSack",
+            "request": "launch",
+            "mainClass": "SubsetSumKnapSack",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "KnapSack1",
             "request": "launch",
             "mainClass": "KnapSack1",
