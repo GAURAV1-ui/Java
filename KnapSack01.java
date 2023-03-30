@@ -1,32 +1,33 @@
 import java.util.*;
 
 public class KnapSack01 { 
-    public static int KnapSack(int[] wt, int [] val, int w, int n) {
-        if(n == 0 || w == 0){
-            return 0;
-        }
-        // for (int[] row : t){
-        // Arrays.fill(row, -1);
-        // }
-    
-    
-        if(wt[n-1] <=w){
-            return Math.max(val[n-1] + KnapSack(wt, val, w-wt[n-1], n-1),
-            KnapSack(wt, val, w, n-1));
-        }
-        else{
-            return KnapSack(wt, val, w, n-1);
-        }
+    public static int Knapsack(int W, int wt[], int val[], int n) {
 
-    }
+        {
+            int i, w;
+            int K[][] = new int[n + 1][W + 1];
 
+            for (i = 0; i<= n; i++) {
+                for (w = 0; w<= W; w++) {
+                    if (i == 0 || w == 0)
+                        K[i][w] = 0;
+                    else if (wt[i - 1]<= w)
+                        K[i][w] = Math.max(val[i - 1] + K[i - 1][w - wt[i - 1]], K[i - 1][w]);
+                    else
+                        K[i][w] = K[i - 1][w];
+                }
+            }
+     
+            return K[n][W];
+        }
+     
 
-    public static void main(String args[]) {
-        int val[] = new int[] { 60, 100, 120 };
-        int wt[] = new int[] { 10, 20, 30 };
-        int W = 50;
-        int n = wt.length;
-        int max = KnapSack(wt, val,W,n);
-        System.out.println(max);
-    }
+        public static void main(String args[])
+        {
+            int val[] = new int[] { 60, 100, 120 };
+            int wt[] = new int[] { 10, 20, 30 };
+            int W = 50;
+            int n = val.length;
+            System.out.println(Knapsack(W, wt, val, n));
+        }
 }

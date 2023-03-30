@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KnapSack1",
+            "request": "launch",
+            "mainClass": "KnapSack1",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "minLeftShow",
             "request": "launch",
             "mainClass": "minLeftShow",
