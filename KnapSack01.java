@@ -1,9 +1,7 @@
 import java.util.*;
 
 public class KnapSack01 { 
-    public static int Knapsack(int W, int wt[], int val[], int n) 
-
-        {
+    public static int Knapsack(int W, int wt[], int val[], int n) {
             int i, w;
             int K[][] = new int[n + 1][W + 1];
 
