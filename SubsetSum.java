@@ -58,12 +58,15 @@ public class SubsetSum {
         }
     }
 
-    /* // uncomment this code to print table
-    for (int i = 0; i <= sum; i++)
-    {
-    for (int j = 0; j <= n; j++)
-        System.out.println (subset[i][j]);
-    } */
+    // for (int i = 0; i <= sum; i++)
+    // {
+    for (int j = 0; j <= n; j++){
+        System.out.print(subset[n][j]);
+        if(subset[n][j]){
+            System.out.println(sum);
+        }
+    }
+    // }
 
     return subset[sum][n];
 }
