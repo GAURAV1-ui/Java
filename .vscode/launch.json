@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "columnOfGrid",
+            "request": "launch",
+            "mainClass": "columnOfGrid",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "CountNumberOfSubset",
             "request": "launch",
             "mainClass": "CountNumberOfSubset",
