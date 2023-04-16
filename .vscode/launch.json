@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "waysToFormTarget",
+            "request": "launch",
+            "mainClass": "waysToFormTarget",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "columnOfGrid",
             "request": "launch",
             "mainClass": "columnOfGrid",
