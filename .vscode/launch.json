@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxValueOfKinCoins",
+            "request": "launch",
+            "mainClass": "maxValueOfKinCoins",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "differenceOf2Arrays",
+            "request": "launch",
+            "mainClass": "differenceOf2Arrays",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "waysToFormTarget",
             "request": "launch",
             "mainClass": "waysToFormTarget",

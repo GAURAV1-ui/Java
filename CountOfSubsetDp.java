@@ -4,8 +4,8 @@ public class CountOfSubsetDp {
 
         for(int i = 1; i<=sum; i++){
             res[0][i] = 0;
-    }
-        for(int i = 0; i<=n; i++){
+    } 
+    for(int i = 0; i<=n; i++){
             res[i][0] = 1;
         }
 
