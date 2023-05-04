@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "cuttingRod",
+            "request": "launch",
+            "mainClass": "cuttingRod",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "maxValueOfKinCoins",
             "request": "launch",
             "mainClass": "maxValueOfKinCoins",
