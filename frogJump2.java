@@ -15,7 +15,6 @@ public class frogJump2 {
         }
        
     }
-
         return dp[n-1];
     }
     public static void main(String [] args) {
