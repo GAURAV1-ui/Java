@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibbonaci",
+            "request": "launch",
+            "mainClass": "fibbonaci",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "cuttingRod",
             "request": "launch",
             "mainClass": "cuttingRod",
