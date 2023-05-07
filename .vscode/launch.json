@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibbonaciDp",
+            "request": "launch",
+            "mainClass": "fibbonaciDp",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "fibbonaci",
             "request": "launch",
             "mainClass": "fibbonaci",
