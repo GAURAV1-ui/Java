@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxSumofNonAdjacentElements",
+            "request": "launch",
+            "mainClass": "maxSumofNonAdjacentElements",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "frogJump2",
             "request": "launch",
             "mainClass": "frogJump2",
