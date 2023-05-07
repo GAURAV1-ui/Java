@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "frogJump2",
+            "request": "launch",
+            "mainClass": "frogJump2",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "energyFrogNeedToJump",
             "request": "launch",
             "mainClass": "energyFrogNeedToJump",
