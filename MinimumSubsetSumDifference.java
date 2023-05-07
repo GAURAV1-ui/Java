@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class MinimumSubsetSumDifference {
 
@@ -44,8 +43,6 @@ public class MinimumSubsetSumDifference {
             return mn;
         
     }
-
-
 
     public static void main (String[] args){
         int[] arr = {3, 1, 4, 2, 2, 1 };
