@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maximumSwap",
+            "request": "launch",
+            "mainClass": "maximumSwap",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "maxSumofNonAdjacentElements",
             "request": "launch",
             "mainClass": "maxSumofNonAdjacentElements",
