@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "totalCuts",
+            "request": "launch",
+            "mainClass": "totalCuts",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "maxFallingPath",
             "request": "launch",
             "mainClass": "maxFallingPath",
