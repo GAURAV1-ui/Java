@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fairDistributionOfCookies",
+            "request": "launch",
+            "mainClass": "fairDistributionOfCookies",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "PrefixMatchWithOtherString",
             "request": "launch",
             "mainClass": "PrefixMatchWithOtherString",
