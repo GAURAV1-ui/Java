@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "extraCharacter",
+            "request": "launch",
+            "mainClass": "extraCharacter",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "countSubArray",
+            "request": "launch",
+            "mainClass": "countSubArray",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "tenWordsofWisdom",
+            "request": "launch",
+            "mainClass": "tenWordsofWisdom",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "toMyCircle",
+            "request": "launch",
+            "mainClass": "toMyCircle",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
+            "name": "LongestArray",
+            "request": "launch",
+            "mainClass": "LongestArray",
+            "projectName": "Java_7d1cf69c"
+        },
+        {
+            "type": "java",
             "name": "fairDistributionOfCookies",
             "request": "launch",
             "mainClass": "fairDistributionOfCookies",
